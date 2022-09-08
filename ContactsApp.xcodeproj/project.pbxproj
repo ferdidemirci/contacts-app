@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810D202228AA4B4D0045B89D /* UpdatePersonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202128AA4B4D0045B89D /* UpdatePersonProtocols.swift */; };
+		810D202428AA4B640045B89D /* UpdatePersonRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202328AA4B640045B89D /* UpdatePersonRouter.swift */; };
+		810D202628AA4B750045B89D /* UpdatePersonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202528AA4B750045B89D /* UpdatePersonInteractor.swift */; };
+		810D202828AA4B840045B89D /* UpdatePersonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202728AA4B840045B89D /* UpdatePersonPresenter.swift */; };
+		810D202A28AA53B70045B89D /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202928AA53B70045B89D /* MainProtocols.swift */; };
+		810D202C28AA53C80045B89D /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202B28AA53C80045B89D /* MainRouter.swift */; };
+		810D202E28AA53D20045B89D /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202D28AA53D20045B89D /* MainInteractor.swift */; };
+		810D203028AA53E10045B89D /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D202F28AA53E10045B89D /* MainPresenter.swift */; };
+		810D203228AA7B370045B89D /* person.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 810D203128AA7B370045B89D /* person.sqlite */; };
+		810D203328AA7B370045B89D /* person.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 810D203128AA7B370045B89D /* person.sqlite */; };
+		810D203428AA7B370045B89D /* person.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 810D203128AA7B370045B89D /* person.sqlite */; };
+		810D204528AA7B880045B89D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203A28AA7B880045B89D /* FMResultSet.m */; };
+		810D204628AA7B880045B89D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203A28AA7B880045B89D /* FMResultSet.m */; };
+		810D204728AA7B880045B89D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203A28AA7B880045B89D /* FMResultSet.m */; };
+		810D204828AA7B880045B89D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203B28AA7B880045B89D /* FMDatabaseQueue.m */; };
+		810D204928AA7B880045B89D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203B28AA7B880045B89D /* FMDatabaseQueue.m */; };
+		810D204A28AA7B880045B89D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203B28AA7B880045B89D /* FMDatabaseQueue.m */; };
+		810D204B28AA7B880045B89D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203E28AA7B880045B89D /* FMDatabasePool.m */; };
+		810D204C28AA7B880045B89D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203E28AA7B880045B89D /* FMDatabasePool.m */; };
+		810D204D28AA7B880045B89D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D203E28AA7B880045B89D /* FMDatabasePool.m */; };
+		810D204E28AA7B880045B89D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204128AA7B880045B89D /* FMDatabaseAdditions.m */; };
+		810D204F28AA7B880045B89D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204128AA7B880045B89D /* FMDatabaseAdditions.m */; };
+		810D205028AA7B880045B89D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204128AA7B880045B89D /* FMDatabaseAdditions.m */; };
+		810D205128AA7B880045B89D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204328AA7B880045B89D /* FMDatabase.m */; };
+		810D205228AA7B880045B89D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204328AA7B880045B89D /* FMDatabase.m */; };
+		810D205328AA7B880045B89D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D204328AA7B880045B89D /* FMDatabase.m */; };
+		81B103FC28A9611E005B8406 /* NewPersonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B103FB28A9611E005B8406 /* NewPersonInteractor.swift */; };
+		81B103FE28A9612F005B8406 /* NewPersonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B103FD28A9612F005B8406 /* NewPersonPresenter.swift */; };
+		81B1040128A961E8005B8406 /* NewPersonRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1040028A961E8005B8406 /* NewPersonRouter.swift */; };
+		81B1040428A96202005B8406 /* NewPersonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1040328A96202005B8406 /* NewPersonProtocols.swift */; };
 		81D7901928A822F700662BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7901828A822F700662BE2 /* AppDelegate.swift */; };
 		81D7901B28A822F700662BE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7901A28A822F700662BE2 /* SceneDelegate.swift */; };
-		81D7901D28A822F700662BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7901C28A822F700662BE2 /* ViewController.swift */; };
+		81D7901D28A822F700662BE2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7901C28A822F700662BE2 /* MainVC.swift */; };
 		81D7902028A822F700662BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7901E28A822F700662BE2 /* Main.storyboard */; };
 		81D7902228A822F800662BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D7902128A822F800662BE2 /* Assets.xcassets */; };
 		81D7902528A822F800662BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7902328A822F800662BE2 /* LaunchScreen.storyboard */; };
 		81D7903028A822F800662BE2 /* ContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7902F28A822F800662BE2 /* ContactsAppTests.swift */; };
 		81D7903A28A822F800662BE2 /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7903928A822F800662BE2 /* ContactsAppUITests.swift */; };
 		81D7903C28A822F800662BE2 /* ContactsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7903B28A822F800662BE2 /* ContactsAppUITestsLaunchTests.swift */; };
+		81D7904928A8247A00662BE2 /* NewContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7904828A8247A00662BE2 /* NewContactsVC.swift */; };
+		81D7904B28A8248C00662BE2 /* UpdateContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7904A28A8248C00662BE2 /* UpdateContactVC.swift */; };
+		81D7904D28A8279B00662BE2 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7904C28A8279B00662BE2 /* ContactCell.swift */; };
+		81D7904F28A8298700662BE2 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7904E28A8298700662BE2 /* Persons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +70,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810D202128AA4B4D0045B89D /* UpdatePersonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonProtocols.swift; sourceTree = "<group>"; };
+		810D202328AA4B640045B89D /* UpdatePersonRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonRouter.swift; sourceTree = "<group>"; };
+		810D202528AA4B750045B89D /* UpdatePersonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonInteractor.swift; sourceTree = "<group>"; };
+		810D202728AA4B840045B89D /* UpdatePersonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonPresenter.swift; sourceTree = "<group>"; };
+		810D202928AA53B70045B89D /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		810D202B28AA53C80045B89D /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		810D202D28AA53D20045B89D /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		810D202F28AA53E10045B89D /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		810D203128AA7B370045B89D /* person.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = person.sqlite; sourceTree = "<group>"; };
+		810D203628AA7B550045B89D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		810D203728AA7B870045B89D /* ContactsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		810D203828AA7B870045B89D /* ContactsAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactsAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		810D203928AA7B870045B89D /* ContactsAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactsAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		810D203A28AA7B880045B89D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		810D203B28AA7B880045B89D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		810D203C28AA7B880045B89D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		810D203D28AA7B880045B89D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		810D203E28AA7B880045B89D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		810D203F28AA7B880045B89D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		810D204028AA7B880045B89D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		810D204128AA7B880045B89D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		810D204228AA7B880045B89D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		810D204328AA7B880045B89D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		810D204428AA7B880045B89D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		81B103FB28A9611E005B8406 /* NewPersonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonInteractor.swift; sourceTree = "<group>"; };
+		81B103FD28A9612F005B8406 /* NewPersonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonPresenter.swift; sourceTree = "<group>"; };
+		81B1040028A961E8005B8406 /* NewPersonRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonRouter.swift; sourceTree = "<group>"; };
+		81B1040328A96202005B8406 /* NewPersonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonProtocols.swift; sourceTree = "<group>"; };
 		81D7901528A822F700662BE2 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D7901828A822F700662BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81D7901A28A822F700662BE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81D7901C28A822F700662BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81D7901C28A822F700662BE2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		81D7901F28A822F700662BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81D7902128A822F800662BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D7902428A822F800662BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +111,10 @@
 		81D7903528A822F800662BE2 /* ContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D7903928A822F800662BE2 /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
 		81D7903B28A822F800662BE2 /* ContactsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81D7904828A8247A00662BE2 /* NewContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactsVC.swift; sourceTree = "<group>"; };
+		81D7904A28A8248C00662BE2 /* UpdateContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateContactVC.swift; sourceTree = "<group>"; };
+		81D7904C28A8279B00662BE2 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		81D7904E28A8298700662BE2 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +142,179 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810D203528AA7B550045B89D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				810D203628AA7B550045B89D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81B103E828A95E0D005B8406 /* main-module */ = {
+			isa = PBXGroup;
+			children = (
+				81B103FA28A9605E005B8406 /* tableview */,
+				81B103ED28A95E31005B8406 /* protocols */,
+				81B103EC28A95E2B005B8406 /* router */,
+				81B103EB28A95E26005B8406 /* interactor */,
+				81B103EA28A95E1E005B8406 /* presenter */,
+				81B103E928A95E17005B8406 /* view */,
+			);
+			path = "main-module";
+			sourceTree = "<group>";
+		};
+		81B103E928A95E17005B8406 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				81D7901C28A822F700662BE2 /* MainVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81B103EA28A95E1E005B8406 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				810D202F28AA53E10045B89D /* MainPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		81B103EB28A95E26005B8406 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				810D202D28AA53D20045B89D /* MainInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		81B103EC28A95E2B005B8406 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				810D202B28AA53C80045B89D /* MainRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		81B103ED28A95E31005B8406 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				810D202928AA53B70045B89D /* MainProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		81B103EE28A95E3B005B8406 /* newperson-module */ = {
+			isa = PBXGroup;
+			children = (
+				81B103F328A95ECD005B8406 /* protocols */,
+				81B103F228A95EA7005B8406 /* router */,
+				81B103F128A95EA2005B8406 /* interactor */,
+				81B103F028A95E9B005B8406 /* presenter */,
+				81B103EF28A95E97005B8406 /* view */,
+			);
+			path = "newperson-module";
+			sourceTree = "<group>";
+		};
+		81B103EF28A95E97005B8406 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				81D7904828A8247A00662BE2 /* NewContactsVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81B103F028A95E9B005B8406 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				81B103FD28A9612F005B8406 /* NewPersonPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		81B103F128A95EA2005B8406 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				81B103FB28A9611E005B8406 /* NewPersonInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		81B103F228A95EA7005B8406 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				81B1040028A961E8005B8406 /* NewPersonRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		81B103F328A95ECD005B8406 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				81B1040328A96202005B8406 /* NewPersonProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		81B103F428A95ED3005B8406 /* updateperson-module */ = {
+			isa = PBXGroup;
+			children = (
+				81B103F928A95EF6005B8406 /* protocols */,
+				81B103F828A95EF2005B8406 /* router */,
+				81B103F728A95EEA005B8406 /* interactor */,
+				81B103F628A95EE6005B8406 /* presenter */,
+				81B103F528A95EE2005B8406 /* view */,
+			);
+			path = "updateperson-module";
+			sourceTree = "<group>";
+		};
+		81B103F528A95EE2005B8406 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				81D7904A28A8248C00662BE2 /* UpdateContactVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		81B103F628A95EE6005B8406 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				810D202728AA4B840045B89D /* UpdatePersonPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		81B103F728A95EEA005B8406 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				810D202528AA4B750045B89D /* UpdatePersonInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		81B103F828A95EF2005B8406 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				810D202328AA4B640045B89D /* UpdatePersonRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		81B103F928A95EF6005B8406 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				810D202128AA4B4D0045B89D /* UpdatePersonProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		81B103FA28A9605E005B8406 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				81D7904C28A8279B00662BE2 /* ContactCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
 		81D7900C28A822F700662BE2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +322,7 @@
 				81D7902E28A822F800662BE2 /* ContactsAppTests */,
 				81D7903828A822F800662BE2 /* ContactsAppUITests */,
 				81D7901628A822F700662BE2 /* Products */,
+				810D203528AA7B550045B89D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +341,29 @@
 			children = (
 				81D7901828A822F700662BE2 /* AppDelegate.swift */,
 				81D7901A28A822F700662BE2 /* SceneDelegate.swift */,
-				81D7901C28A822F700662BE2 /* ViewController.swift */,
+				81B103F428A95ED3005B8406 /* updateperson-module */,
+				81B103EE28A95E3B005B8406 /* newperson-module */,
+				81B103E828A95E0D005B8406 /* main-module */,
 				81D7901E28A822F700662BE2 /* Main.storyboard */,
 				81D7902128A822F800662BE2 /* Assets.xcassets */,
 				81D7902328A822F800662BE2 /* LaunchScreen.storyboard */,
 				81D7902628A822F800662BE2 /* Info.plist */,
+				810D203128AA7B370045B89D /* person.sqlite */,
+				810D203C28AA7B880045B89D /* FMDatabase.h */,
+				810D204328AA7B880045B89D /* FMDatabase.m */,
+				810D204228AA7B880045B89D /* FMDatabaseAdditions.h */,
+				810D204128AA7B880045B89D /* FMDatabaseAdditions.m */,
+				810D204028AA7B880045B89D /* FMDatabasePool.h */,
+				810D203E28AA7B880045B89D /* FMDatabasePool.m */,
+				810D203D28AA7B880045B89D /* FMDatabaseQueue.h */,
+				810D203B28AA7B880045B89D /* FMDatabaseQueue.m */,
+				810D204428AA7B880045B89D /* FMDB.h */,
+				810D203F28AA7B880045B89D /* FMResultSet.h */,
+				810D203A28AA7B880045B89D /* FMResultSet.m */,
+				81D7904E28A8298700662BE2 /* Persons.swift */,
+				810D203728AA7B870045B89D /* ContactsApp-Bridging-Header.h */,
+				810D203828AA7B870045B89D /* ContactsAppTests-Bridging-Header.h */,
+				810D203928AA7B870045B89D /* ContactsAppUITests-Bridging-Header.h */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
@@ -195,13 +453,16 @@
 				TargetAttributes = {
 					81D7901428A822F700662BE2 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					81D7902A28A822F800662BE2 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = 81D7901428A822F700662BE2;
 					};
 					81D7903428A822F800662BE2 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = 81D7901428A822F700662BE2;
 					};
 				};
@@ -231,6 +492,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D203228AA7B370045B89D /* person.sqlite in Resources */,
 				81D7902528A822F800662BE2 /* LaunchScreen.storyboard in Resources */,
 				81D7902228A822F800662BE2 /* Assets.xcassets in Resources */,
 				81D7902028A822F700662BE2 /* Main.storyboard in Resources */,
@@ -241,6 +503,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D203328AA7B370045B89D /* person.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +511,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D203428AA7B370045B89D /* person.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +522,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D7901D28A822F700662BE2 /* ViewController.swift in Sources */,
+				81B103FC28A9611E005B8406 /* NewPersonInteractor.swift in Sources */,
+				81D7904D28A8279B00662BE2 /* ContactCell.swift in Sources */,
+				810D202628AA4B750045B89D /* UpdatePersonInteractor.swift in Sources */,
+				810D202C28AA53C80045B89D /* MainRouter.swift in Sources */,
+				810D202828AA4B840045B89D /* UpdatePersonPresenter.swift in Sources */,
+				810D204B28AA7B880045B89D /* FMDatabasePool.m in Sources */,
+				810D202E28AA53D20045B89D /* MainInteractor.swift in Sources */,
+				81D7904F28A8298700662BE2 /* Persons.swift in Sources */,
+				81B103FE28A9612F005B8406 /* NewPersonPresenter.swift in Sources */,
+				81B1040128A961E8005B8406 /* NewPersonRouter.swift in Sources */,
+				810D204E28AA7B880045B89D /* FMDatabaseAdditions.m in Sources */,
+				810D203028AA53E10045B89D /* MainPresenter.swift in Sources */,
+				81D7901D28A822F700662BE2 /* MainVC.swift in Sources */,
+				810D202A28AA53B70045B89D /* MainProtocols.swift in Sources */,
+				81B1040428A96202005B8406 /* NewPersonProtocols.swift in Sources */,
+				810D205128AA7B880045B89D /* FMDatabase.m in Sources */,
+				81D7904B28A8248C00662BE2 /* UpdateContactVC.swift in Sources */,
+				810D204528AA7B880045B89D /* FMResultSet.m in Sources */,
 				81D7901928A822F700662BE2 /* AppDelegate.swift in Sources */,
+				810D202428AA4B640045B89D /* UpdatePersonRouter.swift in Sources */,
+				810D204828AA7B880045B89D /* FMDatabaseQueue.m in Sources */,
+				810D202228AA4B4D0045B89D /* UpdatePersonProtocols.swift in Sources */,
+				81D7904928A8247A00662BE2 /* NewContactsVC.swift in Sources */,
 				81D7901B28A822F700662BE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +553,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D204628AA7B880045B89D /* FMResultSet.m in Sources */,
+				810D204C28AA7B880045B89D /* FMDatabasePool.m in Sources */,
 				81D7903028A822F800662BE2 /* ContactsAppTests.swift in Sources */,
+				810D205228AA7B880045B89D /* FMDatabase.m in Sources */,
+				810D204928AA7B880045B89D /* FMDatabaseQueue.m in Sources */,
+				810D204F28AA7B880045B89D /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +566,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D204728AA7B880045B89D /* FMResultSet.m in Sources */,
+				810D204A28AA7B880045B89D /* FMDatabaseQueue.m in Sources */,
+				810D204D28AA7B880045B89D /* FMDatabasePool.m in Sources */,
+				810D205328AA7B880045B89D /* FMDatabase.m in Sources */,
 				81D7903A28A822F800662BE2 /* ContactsAppUITests.swift in Sources */,
 				81D7903C28A822F800662BE2 /* ContactsAppUITestsLaunchTests.swift in Sources */,
+				810D205028AA7B880045B89D /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +730,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +748,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +760,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -489,14 +789,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp.app/ContactsApp";
@@ -508,14 +816,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsAppTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp.app/ContactsApp";
@@ -526,13 +841,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsAppUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ContactsApp;
@@ -543,13 +866,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ferdidemirci.ContactsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactsApp/ContactsAppUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ContactsApp;
